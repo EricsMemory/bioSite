@@ -101,6 +101,11 @@ body{
     box-shadow: 0 8px 64px 0 rgba(255, 255, 255, 0.555);
 }
 
+footer{
+    color: white;
+    float:right;
+    padding: 10px;
+}
 
 
 
