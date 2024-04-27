@@ -1,5 +1,4 @@
 body{
-    display: grid;
     background-color: #BBBDB2;
     max-width: 100%;
     display: block;
@@ -35,7 +34,14 @@ footer{
     padding: 20px;
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.74);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
 
+}
+
+#name{
+    font-family: "Dancing Script", cursive;
+    
 }
 
 #navbar a{
@@ -53,7 +59,7 @@ footer{
 }
 
 #sub-content{
-    font-size: larger;
+    font-size: 20px;
     line-height: 200%;
     font-weight: 400;
     color: white;
@@ -61,6 +67,7 @@ footer{
     text-align: center;
     background-color: #474339;
     flex:2;
+    font-family: "Cormorant Garamond", serif;
 
 
 }

@@ -5,6 +5,8 @@ body{
     margin: 0;
     padding: 0;
 
+    
+
 }
 
 #navbar{
@@ -14,6 +16,8 @@ body{
     padding: 20px;
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.74);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
 
 }
 
@@ -22,33 +26,53 @@ body{
     padding: 14px 100px;
     text-decoration: none;
     font-size: 2em;
-    
-    
 }
 
+#name {
+    font-family: "Dancing Script", cursive;
+}
+
+#content{
+    color: white;
+    display:flex;
+    flex-direction: row;
+    background-color: #474339;
+    font-weight: 50px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+}
+
+#content h4{
+    font-size: 24px ;
+}
+
+.image-tile{
+    text-align: center;
+}
+
+.image-tile h4, p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.image-card{
+    max-width: 80%;
+   height: auto;
+}
+
+#killbill{
+    max-width: 71%;
+    margin-left: 80px;
+}
 #navbar a:hover{
     color: rgb(150, 85, 51);
     background-color: white;
 }
 
-.image-tile{
-    width:30%;
-    max-width: 500px;
-    height: auto;
-    margin-left: 35%;
-    max-width: 100%;
+footer{
+    color: white;
+    float:right;
+    padding: 10px;
 }
 
-#sub-content{
-    font-weight: 600;
-    color: black;
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-    max-width: 100%;
-
-}
-
-#description{
-    padding: 50px;
-}

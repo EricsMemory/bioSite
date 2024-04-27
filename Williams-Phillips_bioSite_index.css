@@ -17,6 +17,8 @@ body{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.74);
     z-index: 999;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
 }
 
 #navbar a{
@@ -59,10 +61,20 @@ body{
     padding: 10px 20px;
     transform-origin: center;
     border-radius: 10px;
-    width: 25%;
+    width: 40%;
     box-shadow: -4px 8px 64px 0 rgba(0, 0, 0, 0.623);
 
     
+}
+
+
+#name{
+    font-family: "Dancing Script", cursive;
+}
+
+.imageText p{
+    font-size: 25px;
+    font-family: "Cormorant Garamond", serif;
 }
 
 #sub-content{
