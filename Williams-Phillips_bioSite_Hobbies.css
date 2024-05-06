@@ -50,9 +50,12 @@ body{
     text-align: center;
 }
 
-.image-tile h4, p{
+.image-tile h4{
+    padding: 30px;
+}
+.image-tile p{
     margin: 10px;
-    padding: 10px;
+    padding: 30px 10px 50px 20px;
     font-size: 20px;
 }
 

@@ -119,6 +119,14 @@ footer{
     padding: 10px;
 }
 
+figcaption{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Cormorant Garamond", serif;
+}
+
 
 
 
